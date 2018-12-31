@@ -15,4 +15,9 @@ public class UserDaoImpl implements UserDao {
     public List<User> findAll() {
         return null;
     }
+
+    @Override
+    public void deleteUser(Integer id) {
+        System.out.println("删除用户");
+    }
 }

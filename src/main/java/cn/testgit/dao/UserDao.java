@@ -9,4 +9,6 @@ public interface UserDao {
     public User findUserByName(String name);
 
     public List<User> findAll();
+
+    public void deleteUser(Integer id);
 }
